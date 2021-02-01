@@ -182,7 +182,7 @@ Void clientSocketTask()
 {
     char time[64];
     while(1) {
-        // wait for the semaphore that httpTask() will signal
+        // wait for the event that httpTask() will signal
 
 
 
